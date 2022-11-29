@@ -1,0 +1,167 @@
+body{
+    background-color:rgb(203, 204, 204);
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.container-all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+h1{
+    background-color: rgba(55, 56, 56, 0.514);
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 2px 1px 3px rgb(147, 149, 150);  
+    padding-top: 35px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.subtitulo{
+    background-color: rgb(83, 83, 83);
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 2px 1px 3px rgb(147, 149, 150);  
+    padding-top: 0px;
+    padding-bottom: 32px;
+    margin: 0px;
+    border-bottom: 2px solid rgb(96, 243, 236); 
+}
+
+img{
+    border: 1px solid rgb(224, 224, 224);
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.829);
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 1000;
+}
+
+.boton{
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 3px;
+    width: 170px;
+    height: 35px;
+    text-decoration: none;
+}
+
+.boton:hover{
+    background-color: rgb(170, 124, 39);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+
+.activo {
+    background-color: rgb(99, 196, 228);
+    font-weight: bold;  /*texto en negritas*/
+    border: 2px navy solid;
+}
+
+h3{
+    background-color: rgb(255, 255, 255);
+    color: rgba(55, 56, 56, 0.514);
+    font-size: 2em;
+    font-family: cursive;
+    text-align: left;
+    padding: 10px;
+    padding-left: 100px;
+    margin-top: 10px;
+}
+
+.tabla1{
+    text-align: left;
+    padding: 15px;
+    margin: 45px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse; /*quita el borde doble que por defecto se muestra en una tabla*/
+}
+
+.tabla1 thead th:nth-child(1) {
+    width: 450px;
+}
+
+.tabla1 thead th:nth-child(2) {
+    text-align: left;
+    color: rgba(55, 56, 56, 0.514);
+    font-size: 19px;
+    font-family: cursive;
+    width: 300px;
+}
+
+.tabla1 thead th:nth-child(3) {
+    text-align: center;
+    color: rgba(55, 56, 56, 0.514);
+    font-size: 19px;
+    font-family: cursive;
+    width: 200px;
+}
+
+h4{
+    background-color: rgb(203, 204, 204);
+    color: rgba(55, 56, 56, 0.514);
+    font-size: 13px;
+    font-family: cursive;
+    text-align: left;
+}
+
+.tabla2{
+    text-align: center;
+    padding: 15px;
+    margin: 45px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse; /*quita el borde doble que por defecto se muestra en una tabla*/
+}
+
+.tabla2 thead th:nth-child(1) {
+    text-align: center;
+    color: rgba(55, 56, 56, 0.514);
+    font-size: 19px;
+    font-family: cursive;
+    width: 350px;
+}
+
+.tabla2 thead th:nth-child(2) {
+    text-align: center;
+    color: rgba(55, 56, 56, 0.514);
+    font-size: 19px;
+    font-family: cursive;
+    width: 350px;
+}
+  
+.tabla2 thead th:nth-child(3) {
+    text-align: center;
+    color: rgba(55, 56, 56, 0.514);
+    font-size: 19px;
+    font-family: cursive;
+    width: 350px;
+}
+
+p{
+    text-align: left;
+    color: rgba(0, 0, 0, 0.514);
+    margin: 20px;
+    margin-left: 100px;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
